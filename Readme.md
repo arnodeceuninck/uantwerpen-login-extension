@@ -21,3 +21,9 @@ Click 5: And after all this, you're finally signed in to BlackBoard, but you're 
 
 ## Solution
 This extensions does most of the clicks for you, so you'll only have to enter your password and perform click 4. The extension will even redirect you automatically to the page you started on.
+
+## Logging in with another microsoft account
+It automatically select the first microsoft account. If you want to login with another Microsoft account, you can disable the extension (temporarily) by going to [chrome://extensions](chrome://extensions) and switching it off.
+
+## Problems? 
+If you have any problems, please contact me by [email](mailto:arno.deceuninck@student.uantwerpen.be) or open an issue on GitHub. 
