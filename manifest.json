@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://blackboard.uantwerpen.be/webapps/blackboard/content/listContent.jsp*"
+        "https://blackboard.uantwerpen.be/webapps/blackboard/content/*"
       ],
       "js": [
         "c1-relogin-bb.js"

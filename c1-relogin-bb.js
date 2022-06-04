@@ -1,7 +1,7 @@
 // Hit the "Aanmelden" button at the 'blackboard.png' images
 // https://blackboard.uantwerpen.be/webapps/blackboard/content/listContent.jsp
 
-var url_match = /https:\/\/blackboard.uantwerpen.be\/webapps\/blackboard\/content\/listContent.jsp/
+var url_match = /https:\/\/blackboard.uantwerpen.be\/webapps\/blackboard\/content\//
 if (document.URL.match(url_match)) {
     // Check whether the "Aanmelden" button is present
     var loginButton = document.getElementById("topframe.login.label");
