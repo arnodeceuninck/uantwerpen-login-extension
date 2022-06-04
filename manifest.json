@@ -1,0 +1,53 @@
+{
+  "name": "UAntwerpen Login",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://blackboard.uantwerpen.be/webapps/blackboard/content/listContent.jsp*"
+      ],
+      "js": [
+        "c1-relogin-bb.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://blackboard.uantwerpen.be/webapps/login/?action=relogin"
+      ],
+      "js": [
+        "c2-select-sso.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://login.microsoftonline.com/*"
+      ],
+      "js": [
+        "c3-microsoft-pick-account.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://idpx.uantwerpen.be/idp/profile/SAML2/Redirect/SSO*"
+      ],
+      "js": [
+        "c4-uantwerp.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://blackboard.uantwerpen.be/webapps/portal/execute/tabs/tabAction*"
+      ],
+      "js": [
+        "c5-frontpage.js"
+      ]
+    }
+  ]
+}
