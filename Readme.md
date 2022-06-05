@@ -1,5 +1,9 @@
 # uantwerpen-login-extension
-Not: This plugin works on the site of the University of Antwerp, but I (the author) have made this project on my own and thus the university is for nothing from this plugin responsible. 
+Note: This plugin works on the site of the University of Antwerp, but I (the author) have made this project on my own and thus the university is for nothing from this plugin responsible. 
+
+## Promo video
+Small promo video of the extension (made for the Chrome Webstore) can be found in [promo.mp4](promo.mp4).
+<video src='promo.mp4' width=180/></video>
 
 ## Problem when you don't have the extension
 BlackBoard logs you out once in a while. In order to login again, you have to make way too many clicks. 
