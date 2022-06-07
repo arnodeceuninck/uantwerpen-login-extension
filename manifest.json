@@ -28,6 +28,14 @@
     },
     {
       "matches": [
+        "https://blackboard.uantwerpen.be/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_178_1"
+      ],
+      "js": [
+        "c2-choose-sso.js"
+      ]
+    },
+    {
+      "matches": [
         "https://login.microsoftonline.com/*"
       ],
       "js": [
