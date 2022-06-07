@@ -1,6 +1,8 @@
 # uantwerpen-login-extension
 Note: This plugin works on the site of the University of Antwerp, but I (the author) have made this project on my own and thus the university is for nothing from this plugin responsible. 
 
+## Download
+You can install the plugin from the Chrome Webstore using [this link](https://chrome.google.com/webstore/detail/uantwerpen-login/gcgaojpamgfhhaojdhfbjbagpajeddnd)
 ## Promo video
 Small promo video of the extension (made for the Chrome Webstore) can be found in [promo.mp4](promo.mp4).
 <video src='promo.mp4' width=180/></video>
