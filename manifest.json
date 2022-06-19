@@ -1,7 +1,7 @@
 {
   "name": "UAntwerpen Login",
   "description": "Make logging in again a lot easier.",
-  "version": "1.1",
+  "version": "1.2",
   "manifest_version": 3,
   "permissions": [
     "storage"
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://blackboard.uantwerpen.be/webapps/blackboard/content/*"
+        "https://blackboard.uantwerpen.be/webapps/blackboard/*"
       ],
       "js": [
         "c1-relogin-bb.js"

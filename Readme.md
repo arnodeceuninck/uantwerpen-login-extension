@@ -13,6 +13,9 @@ BlackBoard logs you out once in a while. In order to login again, you have to ma
 Click 1: First click is "Aanmelden" at the top right corner [here](https://blackboard.uantwerpen.be/webapps/blackboard/content/listContent.jsp?course_id=_1945_1&content_id=_39611_1&mode=reset) (since the "OK" button does nothing)
 ![](img/blackboard.png)
 
+Click 1 (in some other cases)
+![](img/blackboard2.png)
+
 Click 2 (actually 2 clicks): Next click is selecting "Aanmelden met account van derden" and "UAntwerpen SSO" on [this page](https://blackboard.uantwerpen.be/webapps/login/?action=relogin). 
 ![](img/relogin.png)
 
