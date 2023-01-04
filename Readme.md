@@ -31,6 +31,11 @@ Click 4: This takes you to your [organizations login page](https://idpx.uantwerp
 Click 5: And after all this, you're finally signed in to BlackBoard, but you're at the front page and not the page you initially started on.
 ![](img/frontpage.png)
 
+Extra: Selects studentenportaal here
+![](img/blackboard-studentenportaal.png)
+
+If there are any additional steps, please let me know and I'll add them to the list.
+
 ## Solution
 This extensions does most of the clicks for you, so you'll only have to enter your password and perform click 4. The extension will even redirect you automatically to the page you started on.
 

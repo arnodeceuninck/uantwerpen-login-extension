@@ -1,17 +1,18 @@
 // Hit the "Aanmelden" button at the 'blackboard.png' images
 // https://blackboard.uantwerpen.be/webapps/blackboard/content/listContent.jsp
 
-var url_match = /https:\/\/blackboard.uantwerpen.be\/webapps\/blackboard\//
+// Redirect to the previously saved url from the frontpage.png image
+
+var url_match = /https:\/\/blackboard\.uantwerpen\.be\/webapps\/portal\/execute\/tabs\/tabAction/
+
 if (document.URL.match(url_match)) {
-    // Check whether the "Aanmelden" button is present
-    var loginButton = document.getElementById("topframe.login.label");
-    // Check whether the title of the button is "Aanmelden"
-    if (loginButton.title === "Aanmelden") {
-
-        // Save the current url for redirecting later
-        chrome.storage.local.set({"blackboard_redirect_link": document.URL});
-
-        // Click the "Aanmelden" button
-        loginButton.click();
-    }
+    // Redirect to previously saved url
+    chrome.storage.local.get(['blackboard_redirect_link'], function (result) {
+        console.log(result);
+        if (result.blackboard_redirect_link) {
+            // If there is a previously saved url, remove it, so you won't get redirected the next time you're on the welcome page
+            chrome.storage.local.remove('blackboard_redirect_link');
+            window.location.href = result.blackboard_redirect_link;
+        }
+    });
 }
