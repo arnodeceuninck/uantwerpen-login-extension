@@ -32,7 +32,7 @@ Click 5: And after all this, you're finally signed in to BlackBoard, but you're 
 ![](img/frontpage.png)
 
 Extra: Selects studentenportaal here
-![](img/blackboard-studentenportaal.png)
+![](img/blackboard-studentenportaal.jpg)
 
 If there are any additional steps, please let me know and I'll add them to the list.
 
